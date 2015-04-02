@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BaseMageClass : BaseCharacterClass {
 
-	public void MageClass() {
+	public BaseMageClass() {
 		CharacterClassName = "Mage";
 		CharacterClassDescription = "A wise, spellcasting wizard.";
 		Stamina = 12;

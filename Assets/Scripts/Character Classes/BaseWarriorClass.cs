@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BaseWarriorClass : BaseCharacterClass {
 
-	public void WarriorClass() {
+	public BaseWarriorClass() {
 		CharacterClassName = "Warrior";
 		CharacterClassDescription = "A fierce and powerful hero.";
 		Stamina = 15;
