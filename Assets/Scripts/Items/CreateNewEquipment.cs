@@ -8,7 +8,8 @@ public class CreateNewEquipment : MonoBehaviour {
 		"Common", "Great", "Amazing", "Insane"};
 	private string[] itemDescriptions = new string[2] {
 		"A new cool Equipment.", "A new not-so-cool Equipment."};
-	
+
+	// Use this for initialization.
 	void Start() {
 		CreateEquipment ();
 		Debug.Log(newEquipment.ItemName);
@@ -25,7 +26,7 @@ public class CreateNewEquipment : MonoBehaviour {
 		// Assign name to the equipment.
 		newEquipment.ItemName = itemNames [Random.Range (0, itemNames.Length)] + " Equipment";
 		
-		// Create an equipment description.
+		// Create equipment description.
 		newEquipment.ItemDescription = itemDescriptions [Random.Range(0, itemDescriptions.Length)];
 		
 		// Set equipment ID.

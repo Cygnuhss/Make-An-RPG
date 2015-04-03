@@ -5,7 +5,8 @@ public class CreateNewWeapon : MonoBehaviour {
 
 	private BaseWeapon newWeapon;
 
-	void Start() {
+	// Use this for initialization.
+		void Start() {
 		CreateWeapon ();
 		Debug.Log(newWeapon.ItemName);
 		Debug.Log(newWeapon.ItemDescription);
@@ -21,7 +22,7 @@ public class CreateNewWeapon : MonoBehaviour {
 		// Assign name to the weapon.
 		newWeapon.ItemName = "W" + Random.Range (1, 101);
 
-		// Create a weapon description.
+		// Create weapon description.
 		newWeapon.ItemDescription = "This is a new Weapon.";
 
 		// Set weapon ID.
