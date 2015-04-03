@@ -26,15 +26,15 @@ public class CreateNewWeapon : MonoBehaviour {
 
 		// Set weapon ID.
 		newWeapon.ItemID = Random.Range (1, 101);
+		
+		// Set weapon type.
+		ChooseWeaponType ();
 
 		// Set weapon stats.
 		newWeapon.Stamina = Random.Range (1, 11);
 		newWeapon.Endurance = Random.Range (1, 11);
 		newWeapon.Strength = Random.Range (1, 11);
 		newWeapon.Intellect = Random.Range (1, 11);
-
-		// Set weapon type.
-		ChooseWeaponType ();
 
 		// Set spell effect ID.
 		newWeapon.SpellEffectID = Random.Range (1, 101);
